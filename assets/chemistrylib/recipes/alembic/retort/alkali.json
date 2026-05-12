@@ -1,0 +1,92 @@
+[
+	{
+		"code": "ammoniacompost",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 5000,
+		"solidInput": {
+			"type": "item",
+			"code": "game:compost",
+			"stackSize": 1
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 25
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:ammoniaportion",
+			"stackSize": 25
+		}
+	},
+	{
+		"code": "ammonialeather",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 50,
+		"solidInput": {
+			"type": "item",
+			"code": "game:leather",
+			"stackSize": 1
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 50
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:ammoniaportion",
+			"stackSize": 50
+		}
+	},
+	{
+		"code": "ammoniaammoniumchloride",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 2000,
+		"solidInput": {
+			"type": "item",
+			"code": "chemistrylib:ammoniumchloride",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "game:slakedlimeportion",
+			"stackSize": 10
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 10
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:ammoniaportion",
+			"stackSize": 10
+		}
+	},
+	{
+		"code": "solvayprocess",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 200,
+		"liquidInput": {
+			"type": "item",
+			"code": "chemistrylib:carbonatedammoniaportion",
+			"stackSize": 20
+		},
+		"solidByproduct": {
+			"type": "item",
+			"code": "chemistrylib:ammoniumchloride",
+			"stackSize": 1
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:brineportion",
+			"stackSize": 20
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:sodaash",
+			"stackSize": 1
+		}
+	}
+]

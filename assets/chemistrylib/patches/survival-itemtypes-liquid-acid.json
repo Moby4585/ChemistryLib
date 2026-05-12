@@ -1,0 +1,57 @@
+[
+  {
+    "op": "replace",
+    "path": "/allowedVariants/0",
+    "value": "acid-full-*",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/waterTightContainerProps/textureByType",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/waterTightContainerProps/texturebytype",
+    "value": {
+      "*-hydrochloric": {
+        "base": "block/liquid/clearliquid",
+        "alpha": 180
+      },
+      "*-hydrofluoric": {
+        "base": "block/liquid/clearliquid",
+        "alpha": 180
+      },
+      "*-nitric": {
+        "base": "block/liquid/nitricacid",
+        "alpha": 180
+      },
+      "*-sulfuric": {
+        "base": "game:block/liquid/ice/glacier1",
+        "alpha": 180
+      },
+      "*-aquaregia": {
+        "base": "block/liquid/nitricacid",
+        "alpha": 80
+      }
+    },
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/3",
+    "value": "hydrofluoric",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/4",
+    "value": "aquaregia",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  }
+]

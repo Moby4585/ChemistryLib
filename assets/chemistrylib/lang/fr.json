@@ -1,0 +1,133 @@
+{
+  "game:tabname-chemistry": "Chimie",
+
+  "game:item-acid-full-nitric": "Esprit de nitre",
+  "game:incontainer-item-acid-full-nitric": "Esprit de nitre",
+  "game:incontainer-item-mineralacidportion-nitric": "Esprit de nitre",
+  "game:itemdesc-acid-full-nitric": "HNO<font size=\"10\">3</font>",
+
+  "game:item-acid-full-hydrochloric": "Esprit de sel",
+  "game:incontainer-item-acid-full-hydrochloric": "Esprit de sel",
+  "game:incontainer-item-mineralacidportion-hydrochloric": "Esprit de sel",
+  "game:itemdesc-acid-full-hydrochloric": "HCl",
+
+  "game:item-acid-full-hydrofluoric": "Esprit de fluorite",
+  "game:incontainer-item-acid-full-hydrofluoric": "Esprit de fluorite",
+  "game:incontainer-item-mineralacidportion-hydrofluoric": "Esprit de fluorite",
+  "game:itemdesc-acid-full-hydrofluoric": "HF",
+
+  "game:item-acid-full-sulfuric": "Vitriol fumant",
+  "game:incontainer-item-acid-full-sulfuric": "Vitriol fumant",
+  "game:incontainer-item-mineralacidportion-sulfuric": "Vitriol fumant",
+  "game:itemdesc-acid-full-sulfuric": "H<font size=\"10\">2</font>SO<font size=\"10\">4</font>",
+
+  "game:item-acid-full-aquaregia": "Aqua Regia",
+  "game:incontainer-item-acid-full-aquaregia": "Aqua Regia",
+  "game:incontainer-item-mineralacidportion-aquaregia": "Aqua Regia",
+
+  "item-mineralalkaliportion-potassiumhydroxide": "Potasse caustique",
+  "incontainer-item-mineralalkaliportion-potassiumhydroxide": "Potasse caustique",
+  "game:incontainer-item-mineralalkaliportion-potassiumhydroxide": "Potasse caustique",
+  "itemdesc-mineralalkaliportion-potassiumhydroxide": "KOH",
+
+  "item-mineralalkaliportion-sodiumhydroxide": "Soude caustique",
+  "incontainer-item-mineralalkaliportion-sodiumhydroxide": "Soude caustique",
+  "game:incontainer-item-mineralalkaliportion-sodiumhydroxide": "Soude caustique",
+  "itemdesc-mineralalkaliportion-sodiumhydroxide": "NaOH",
+
+  "item-mercuryportion": "Mercure",
+  "incontainer-item-mercuryportion": "Mercure",
+  "game:incontainer-item-mercuryportion": "Mercure",
+  "itemdesc-mercuryportion": "Hg",
+
+  "item-ammoniaportion": "Ammoniaque",
+  "incontainer-item-ammoniaportion": "Ammoniaque",
+  "game:incontainer-item-ammoniaportion": "Ammoniaque",
+  "itemdesc-ammoniaportion": "NH<font size=\"10\">3</font>",
+
+  "item-coaltarportion": "Goudron de charbon",
+  "incontainer-item-coaltarportion": "Goudron de charbon",
+  "game:incontainer-item-coaltarportion": "Goudron de charbon",
+
+  "item-organicliquidportion-acetone": "Ac�tone",
+  "incontainer-item-organicliquidportion-acetone": "Ac�tone",
+  "game:incontainer-item-organicliquidportion-acetone": "Ac�tone",
+  "itemdesc-organicliquidportion-acetone": "C<font size=\"10\">3</font>H<font size=\"10\">6</font>O",
+
+  "item-organicliquidportion-glycerin": "Glyc�rine",
+  "incontainer-item-organicliquidportion-glycerin": "Glyc�rine",
+  "game:incontainer-item-organicliquidportion-glycerin": "Glyc�rine",
+  "itemdesc-organicliquidportion-glycerin": "C<font size=\"10\">3</font>H<font size=\"10\">8</font>O<font size=\"10\">3</font>",
+
+  "item-organicliquidportion-methanol": "Esprit de bois",
+  "incontainer-item-organicliquidportion-methanol": "Esprit de bois",
+  "game:incontainer-item-organicliquidportion-methanol": "Esprit de bois",
+  "itemdesc-organicliquidportion-methanol": "CH<font size=\"10\">3</font>OH",
+
+  "item-organicliquidportion-benzene": "Benz�ne",
+  "incontainer-item-organicliquidportion-benzene": "Benz�ne",
+  "game:incontainer-item-organicliquidportion-benzene": "Benz�ne",
+  "itemdesc-organicliquidportion-benzene": "C<font size=\"10\">6</font>H<font size=\"10\">6</font>",
+
+  "item-organicliquidportion-formaldehyde": "Formol",
+  "incontainer-item-organicliquidportion-formaldehyde": "Formol",
+  "game:incontainer-item-organicliquidportion-formaldehyde": "Formol",
+  "itemdesc-organicliquidportion-formaldehyde": "CH<font size=\"10\">2</font>O",
+
+  "item-organicliquidportion-turpentine": "T�r�benthine",
+  "incontainer-item-organicliquidportion-turpentine": "T�r�benthine",
+  "game:incontainer-item-organicliquidportion-turpentine": "T�r�benthine",
+  "itemdesc-organicliquidportion-turpentine": "C<font size=\"10\">10</font>H<font size=\"10\">16</font>",
+
+  "item-aceticacidportion": "Acide ac�tique",
+  "incontainer-item-aceticacidportion": "Acide ac�tique",
+  "game:incontainer-item-aceticacidportion": "Acide ac�tique",
+  "itemdesc-aceticacidportion": "CH<font size=\"10\">3</font>COOH",
+
+  "item-phenolateportion": "Ph�nolate",
+  "incontainer-item-phenolateportion": "Ph�nolate",
+  "game:incontainer-item-phenolateportion": "Ph�nolate",
+
+  "item-pyroligneousacidportion": "Acide pyroligneux",
+  "incontainer-item-pyroligneousacidportion": "Acide pyroligneux",
+  "game:incontainer-item-pyroligneousacidportion": "Acide pyroligneux",
+
+  "item-carbonatedwaterportion": "Eau gazeuse",
+  "incontainer-item-carbonatedwaterportion": "Eau gazeuse",
+  "game:incontainer-item-carbonatedwaterportion": "Eau gazeuse",
+
+  "item-carbonatedammoniaportion": "Ammoniaque carbon�",
+  "incontainer-item-carbonatedammoniaportion": "Ammoniaque carbon�",
+  "game:incontainer-item-carbonatedammoniaportion": "Ammoniaque carbon�",
+
+  "item-phenol": "Ph�nol",
+  "itemdesc-phenol": "C<font size=\"10\">6</font>H<font size=\"10\">6</font>O",
+
+  "item-glauberssalt": "Sel de Glauber",
+  "itemdesc-glauberssalt": "Na<font size=\"10\">2</font>SO<font size=\"10\">4</font>O",
+
+  "item-sodaash": "Cristaux de soude",
+  "itemdesc-sodaash": "Na<font size=\"10\">2</font>CO<font size=\"10\">3</font>O",
+
+  "item-calciumacetate": "Ac�tate de calcium",
+  "itemdesc-calciumacetate": "Ca(CH<font size=\"10\">3</font>COO)<font size=\"10\">2</font>",
+
+  "item-phosphorus-white": "Phosphore blanc",
+  "itemdesc-phosphorus-white": "P<font size=\"10\">4</font>",
+
+  "item-phosphorus-red": "Phosphore rouge",
+  "itemdesc-phosphorus-red": "P<font size=\"10\">21</font>",
+
+  "item-ammoniumchloride": "Sal ammoniac",
+  "itemdesc-ammoniumchloride": "NH<font size=\"10\">4</font>Cl",
+
+  "item-soap": "Savon",
+
+  "item-lens": "Lentille",
+
+
+
+
+  "chemistrylib:chemistryguide-intro-title": "Chemistry 101",
+  "chemistrylib:chemistryguide-intro-content": "<strong>Chemistry 101</strong><br><i>The art of elemental addition and subtraction</i><br><br>All chemicals in ChemistryLib can be synthesized in one of three ways:<br>- Using <i>Lavoisier</i><br>- Using <i>A Culinary Artillery</i><br>- Using base game mechanics (mostly the <i>Barrel</i>)<br><br>Here are the operations that will be used:<br><i>Boil</i>: Boil in A Culinary Artillery's saucepan (or cauldron)<br><i>Mix</i>: Knead in A Culinary Artillery's mixing bowl<br><i>Put ... in a barrel</i>: Add the ingredients to a barrel<br><i>Heat ... in a boiling flask</i>: Use the Lavoisier Chemistry System (more info on Lavoisier's wiki)<br><br>When using the Lavoisier Chemistry System, make sure to follow the correct setup (you need to put components in the correct order).<br><br><strong>A guide to synthesis</strong><br>A significant amount of chemicals can be made using Lavoisier.<br>A guide on how to make them is available on the <a href=\"https://github.com/Moby4585/Lavoisier/wiki/Using-ChemistryLib \">Lavoisier wiki</a>.<br><br>All quantities in the recipes can be multiplied, but you need to maintain the correct ratio.<br><br>Here is a list of all the chemicals in ChemistryLib that aren't listed on the Lavoisier wiki, and how to make them:<br><br><strong>Barrel:</strong><br><i>Calcium acetate</i>:<br>(Other recipes are available using Lavoisier)<br>Put 1L of vinegar and 1x lime (crushed limestone) in a barrel.<br>OR Put 0.1L of acetic acid and 1x lime in a barrel.<br><br><i>Caustic potash</i>:<br>Put 1L of slaked lime and 1x potash in a barrel.<br><br><i>Caustic soda</i>:<br>Put 1L of slaked lime and 1x soda ash in a barrel.<br><br><i>Nitric acid</i>:<br>(Other recipes are available using Lavoisier)<br>Put (and seal) 1L of water and 1x compost in a barrel.<br><br><i>Saltpeter</i>:<br>Put 0.1L of nitric acid and 1x potash in a barrel.<br><br><strong>Kneading:</strong><br><i>Sal ammoniac</i>:<br>Mix 0.05L of ammonia and 0.05L of spirit of salt (hydrochloric acid).<br><br><i>Aqua regia</i>:<br>Mix 0.02L of spirit of nitre (nitric acid) and 0.04L of spirit of salt (hydrochloric acid).<br><br><i>Phenolate</i>:<br>Mix 0.1L of caustic potash and 0.1L of coal tar.<br>OR Mix 0.1L of caustic soda and 0.1L of coal tar.<br><br><i>Phenol</i>:<br>Mix 0.1L of any mineral acid (sulfuric, nitric, hydrochloric, aqua regia or hydrofluoric) and 0.1L of phenolate.<br><br><i>Soap</i>:<br>Mix 0.1L of caustic potash and 1x fat.<br>OR Mix 0.1L of caustic soda and 1x fat.<br><br><strong>Simmering:</strong><br><i>Benzene</i>:<br>Boil 1x phenol and 1x zinc bits<br><br><i>Glycerin</i>:<br>Boil 1x soap, 1x salt and 1L of water<br><br><i>Soda ash</i>:<br>(Other recipes are available using Lavoisier)<br>Boil 1x lime, 1x coal (any, including charcoal) and 2x Glauber's salt<br><br><i>White phosphorus</i>:<br>(To make red phosphorus, see Lavoisier)<br>Boil 1x bonemeal, 5x coke and 3x crushed quartz.<br>OR Boil 1x bonemeal, 5x charcoal and 3x crushed quartz."
+}

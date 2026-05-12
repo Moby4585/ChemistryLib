@@ -1,0 +1,85 @@
+[
+  {
+    "Ingredients": [
+      {
+        "type": "item",
+        "code": "game:bonemeal",
+        "quantity": 1
+      },
+      {
+        "type": "item",
+        "code": "game:coke",
+        "quantity": 5
+      },
+      {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 3
+      }
+    ],
+    "Simmering": {
+      "meltingPoint": 900,
+      "meltingDuration": 400,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "chemistrylib:phosphorus-white",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "Ingredients": [
+      {
+        "type": "item",
+        "code": "game:bonemeal",
+        "quantity": 1
+      },
+      {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 5
+      },
+      {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 3
+      }
+    ],
+    "Simmering": {
+      "meltingPoint": 900,
+      "meltingDuration": 400,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "chemistrylib:phosphorus-white",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "Ingredients": [
+      {
+        "type": "item",
+        "code": "chemistrylib:phosphorus-white",
+        "quantity": 1
+      }
+    ],
+    "Simmering": {
+      "meltingPoint": 300,
+      "meltingDuration": 400,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "chemistrylib:phosphorus-red",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  }
+]

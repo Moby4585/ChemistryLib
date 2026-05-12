@@ -1,0 +1,29 @@
+[
+  {
+    "ingredients": [
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "chemistrylib:ammoniaportion",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "game:acid-full-hydrochloric",
+            "quantity": 10
+          }
+        ]
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "chemistrylib:ammoniumchloride",
+      "stackSize": 1
+    }
+  }
+] 

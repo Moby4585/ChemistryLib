@@ -1,0 +1,22 @@
+{
+  "code": "saltpeterfromnitricacid",
+  "sealHours": 6,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "game:acid-full-nitric",
+      "litres": 0.1,
+      "consumeLitres": 0.1
+    },
+    {
+      "type": "item",
+      "code": "game:potash",
+      "quantity": 1
+    }
+  ],
+  "output": {
+    "type": "item",
+    "code": "game:saltpeter",
+    "quantity": 1
+  }
+}

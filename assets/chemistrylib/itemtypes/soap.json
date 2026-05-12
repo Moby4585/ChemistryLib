@@ -1,0 +1,107 @@
+{
+  "code": "soap",
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "chemistry": [ "*" ]
+  },
+  "attributes": {
+    "dissolveInWater": true,
+    "displaycaseable": true,
+    "shelvable": true,
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0.05,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    }
+  },
+  "nutritionProps": {
+    "satiety": 40,
+    "health": 0,
+    "foodcategory": "NoNutrition"
+  },  
+  "shape": {
+    "base": "item/solidblock"
+  },
+  "textures": {
+    "base": {
+      "base": "item/soap"
+    }
+  },
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 22
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 2,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -28,
+      "y": 23,
+      "z": 180
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.07,
+      "z": 0.5
+    },
+    "scale": 4
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 25,
+      "y": 106,
+      "z": 54
+    },
+    "origin": {
+      "x": 0.32,
+      "y": -0.25,
+      "z": -0.06
+    },
+    "scale": 0.7
+  }
+}

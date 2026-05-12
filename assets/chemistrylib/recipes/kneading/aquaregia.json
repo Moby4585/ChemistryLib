@@ -1,0 +1,29 @@
+[
+  {
+    "ingredients": [
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "game:acid-full-nitric",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "game:acid-full-hydrochloric",
+            "quantity": 4
+          }
+        ]
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:acid-full-aquaregia",
+      "stackSize": 6
+    }
+  }
+] 

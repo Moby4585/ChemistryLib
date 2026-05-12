@@ -1,0 +1,174 @@
+{
+  "code": "organicliquidportion",
+  "class": "ItemLiquidPortion",
+  "matterState": "liquid",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "acetone", "glycerin", "methanol", "benzene", "formaldehyde", "turpentine" ]
+    }
+  ],
+  "attributes": {
+    "handbook": {
+      "ignoreCreativeInvStacks": true
+    },
+    "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texturebytype": {
+        "*-acetone": {
+          "base": "block/liquid/clearliquid",
+          "alpha": 120
+        },
+        "*-glycerin": {
+          "base": "block/liquid/clearliquid",
+          "alpha": 180
+        },
+        "*-methanol": {
+          "base": "block/liquid/clearliquid",
+          "alpha": 120
+        },
+        "*-benzene": {
+          "base": "block/liquid/clearliquid",
+          "alpha": 180
+        },
+        "*-formaldehyde": {
+          "base": "block/liquid/clearliquid",
+          "alpha": 120
+        },
+        "*-turpentine": {
+          "base": "game:block/liquid/honey",
+          "alpha": 180
+        }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "organicliquidportion-{type}",
+          "states": [ "acetone", "glycerin", "methanol", "benzene", "formaldehyde", "turpentine" ]
+        }
+      },
+      "nutritionPropsPerLitreByType": {
+        "*-acetone": {
+          "satiety": 0,
+          "health": -100,
+          "foodcategory": "NoNutrition"
+        },
+        "*-glycerin": {
+          "satiety": 20,
+          "health": 0,
+          "foodcategory": "NoNutrition"
+        },
+        "*-methanol": {
+          "satiety": 0,
+          "health": -100,
+          "foodcategory": "NoNutrition"
+        },
+        "*-benzene": {
+          "satiety": 0,
+          "health": -50,
+          "foodcategory": "NoNutrition"
+        },
+        "*-formaldehyde": {
+          "satiety": 0,
+          "health": -250,
+          "foodcategory": "NoNutrition"
+        },
+        "*-turpentine": {
+          "satiety": 0,
+          "health": -20,
+          "foodcategory": "NoNutrition"
+        }
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texturebytype": {
+    "*-acetone": {
+      "base": "block/liquid/clearliquid",
+      "alpha": 120
+    },
+    "*-glycerin": {
+      "base": "block/liquid/clearliquid",
+      "alpha": 180
+    },
+    "*-methanol": {
+      "base": "block/liquid/clearliquid",
+      "alpha": 120
+    },
+    "*-benzene": {
+      "base": "block/liquid/clearliquid",
+      "alpha": 180
+    },
+    "*-formaldehyde": {
+      "base": "block/liquid/clearliquid",
+      "alpha": 120
+    },
+    "*-turpentine": {
+      "base": "game:block/liquid/honey",
+      "alpha": 180
+    }
+  },
+  "creativeinventoryStacks": [
+    {
+      "tabs": [ "general", "liquids" , "chemistry" ],
+      "stacks": [
+        {
+          "type": "block",
+          "code": "game:woodbucket",
+          "attributes": {
+            "ucontents": [
+              {
+                "type": "item",
+                "code": "chemistrylib:organicliquidportion-{type}",
+                "states": [ "acetone", "glycerin", "methanol", "benzene", "formaldehyde", "turpentine" ],
+                "makefull": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 123,
+      "y": -33,
+      "z": -13
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.4
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 25,
+      "y": 157,
+      "z": -5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1,
+      "z": -1.4
+    }
+  }
+}

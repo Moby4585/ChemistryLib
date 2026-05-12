@@ -1,0 +1,29 @@
+[
+  {
+    "ingredients": [
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "chemistrylib:carbonatedwaterportion",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "chemistrylib:ammoniaportion",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "chemistrylib:carbonatedammoniaportion",
+      "stackSize": 10
+    }
+  }
+] 

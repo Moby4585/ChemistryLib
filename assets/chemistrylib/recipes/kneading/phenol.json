@@ -1,0 +1,29 @@
+[
+  {
+    "ingredients": [
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "game:acid-full-*",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "type": "item",
+            "code": "chemistrylib:phenolateportion",
+            "quantity": 10
+          }
+        ]
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "chemistrylib:phenol",
+      "stackSize": 1
+    }
+  }
+] 

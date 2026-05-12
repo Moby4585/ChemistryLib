@@ -1,0 +1,142 @@
+{
+  "code": "phosphorus",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "white", "red" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "chemistry": [ "*" ]
+  },
+  "attributes": {
+    "attributes": {
+      "dissolveInWater": false,
+      "displaycaseable": true,
+      "shelvable": false,
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0.05,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      }
+    }
+  },
+  "shapebytype": {
+    "*-white": {
+      "base": "item/solidblock"
+    },
+    "*-red": {
+      "base": "item/powder/glauberssalt"
+    }
+  },
+  "texturesbytype": {
+    "*-white": {
+      "base": {
+        "base": "item/phosphoruswhite"
+      }
+    },
+    "*-red": {
+      "sulphur": {
+        "base": "item/phosphorusred"
+      }
+    }
+  },
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 22
+    }
+  },
+  "guiTransformByType": {
+    "*-white": {
+      "translation": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -28,
+        "y": 23,
+        "z": 180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.07,
+        "z": 0.5
+      },
+      "scale": 4
+    },
+    "*-red": {
+      "translation": {
+        "x": 3,
+        "y": 1,
+        "z": -25
+      },
+      "rotation": {
+        "x": 156,
+        "y": 12,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.4,
+        "y": -0.1,
+        "z": 0.8
+      },
+      "scale": 2.52
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 25,
+      "y": 106,
+      "z": 54
+    },
+    "origin": {
+      "x": 0.32,
+      "y": -0.25,
+      "z": -0.06
+    },
+    "scale": 0.7
+  }
+}

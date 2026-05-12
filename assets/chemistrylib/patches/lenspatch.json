@@ -1,0 +1,24 @@
+[
+  {
+    "file": "game:blocktypes/glass/slab-quartz.json",
+    "op": "add",
+    "path": "/grindingProps",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "chemistrylib:lens"
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/glass/slab-plain.json",
+    "op": "add",
+    "path": "/grindingProps",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "chemistrylib:lens"
+      }
+    }
+  }
+]

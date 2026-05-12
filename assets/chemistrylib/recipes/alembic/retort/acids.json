@@ -1,0 +1,162 @@
+[
+	{
+		"code": "ostwaldprocess",
+		"setup": [ "alembicboilingflask", "alembiccomponent-catalyser", "alembiccomponent-reactionchamber", "alembicdissolver" ],
+		"ticksPerItem": 30,
+		"liquidInput": {
+			"type": "item",
+			"code": "chemistrylib:ammoniaportion",
+			"stackSize": 2
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 1
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-nitric",
+			"stackSize": 1
+		}
+	},
+	{
+		"code": "nitricacidsaltpeter",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 2000,
+		"liquidInput": {
+			"type": "item",
+			"code": "game:acid-full-sulfuric",
+			"stackSize": 50
+		},
+		"solidInput": {
+			"type": "item",
+			"code": "game:saltpeter",
+			"stackSize": 1
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 50
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-nitric",
+			"stackSize": 50
+		}
+	},
+	{
+		"code": "hydrochloricsalt",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 2000,
+		"solidInput": {
+			"type": "item",
+			"code": "game:salt",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "game:acid-full-sulfuric",
+			"stackSize": 100
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 1
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-hydrochloric",
+			"stackSize": 100
+		},
+		"solidByproduct": {
+			"type": "item",
+			"code": "chemistrylib:glauberssalt",
+			"stackSize": 1
+		}
+	},
+	{
+		"code": "hydrofluoricfluorine",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 2000,
+		"solidInput": {
+			"type": "item",
+			"code": "game:ore-fluorite",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "game:acid-full-sulfuric",
+			"stackSize": 100
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 100
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-hydrofluoric",
+			"stackSize": 100
+		}
+	},
+	{
+		"code": "sulfuricacidleadchamber",
+		"setup": [ "alembicboilingflask", "alembiccomponent-reactionchamber", "alembicdissolver" ],
+		"ticksPerItem": 60000,
+		"solidInput": {
+			"type": "item",
+			"code": "game:powderedsulfur",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "game:acid-full-nitric",
+			"stackSize": 50
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 100
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-sulfuric",
+			"stackSize": 100
+		}
+	},
+	{
+		"code": "sulfuricacidcontact",
+		"setup": [ "alembicboilingflask", "alembiccomponent-catalyser", "alembicdissolver" ],
+		"ticksPerItem": 4000,
+		"solidInput": {
+			"type": "item",
+			"code": "game:powderedsulfur",
+			"stackSize": 1
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 100
+		},
+		"product": {
+			"type": "item",
+			"code": "game:acid-full-sulfuric",
+			"stackSize": 100
+		}
+	},
+	{
+		"code": "aceticaciddistillation",
+		"setup": [ "alembicboilingflask", "alembiccomponent-refluxvertical" ],
+		"ticksPerItem": 40,
+		"liquidInput": {
+			"type": "item",
+			"code": "game:vinegarportion",
+			"stackSize": 10
+		},
+		"liquidByproduct": {
+			"type": "item",
+			"code": "chemistrylib:aceticacidportion",
+			"stackSize": 1
+		}
+	}
+]

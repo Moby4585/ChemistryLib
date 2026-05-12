@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "modid": "chemistrylib",
+  "name": "ChemistryLib",
+  "description": "This mod is a library adds various chemicals and ways to make them. This mod doesn't adds any use for them.",
+  "authors": [ "Moby_" ],
+  "version": "1.2.2",
+  "dependencies": {
+    "game": "",
+    "survival": ""
+  },
+  "website": "http://example.com"
+}

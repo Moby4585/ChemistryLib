@@ -1,0 +1,62 @@
+[
+	{
+		"code": "seltzervinegar",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 20,
+		"solidInput": {
+			"type": "item",
+			"code": "game:lime",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "game:vinegarportion",
+			"stackSize": 100
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 10
+		},
+		"solidByproduct": {
+			"type": "item",
+			"code": "chemistrylib:calciumacetate",
+			"stackSize": 1
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:carbonatedwaterportion",
+			"stackSize": 10
+		}
+	},
+	{
+		"code": "seltzeracetic",
+		"setup": [ "alembicboilingflask", "alembicdissolver" ],
+		"ticksPerItem": 20,
+		"solidInput": {
+			"type": "item",
+			"code": "game:lime",
+			"stackSize": 1
+		},
+		"liquidInput": {
+			"type": "item",
+			"code": "chemistrylib:aceticacidportion",
+			"stackSize": 10
+		},
+		"endInput": {
+			"type": "item",
+			"code": "game:waterportion",
+			"stackSize": 10
+		},
+		"solidByproduct": {
+			"type": "item",
+			"code": "chemistrylib:calciumacetate",
+			"stackSize": 1
+		},
+		"product": {
+			"type": "item",
+			"code": "chemistrylib:carbonatedwaterportion",
+			"stackSize": 10
+		}
+	}
+]
