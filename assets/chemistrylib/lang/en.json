@@ -130,6 +130,21 @@
 
   "item-lens": "Lens",
 
+  "item-cobalt-oxide": "Cobalt Oxide",
+  "itemdesc-cobalt-oxide": "Co<font size=\"10\">3</font>O<font size=\"10\">4</font>",
+
+  "item-manganese-dioxide": "Manganese Dioxide",
+  "itemdesc-manganese-dioxide": "MnO<font size=\"10\">2</font>",
+
+  "item-purple-of-cassius": "Purple of Cassius",
+  "itemdesc-purple-of-cassius": "Au·Sn(OH)<font size=\"10\">4</font>",
+
+  "item-boneash": "Bone Ash",
+  "itemdesc-boneash": "Ca<font size=\"10\">10</font>(PO<font size=\"10\">4</font>)<font size=\"10\">6</font>(OH)<font size=\"10\">2</font>",
+
+  "item-litharge": "Litharge",
+  "itemdesc-litharge": "PbO",
+
 
 
 
